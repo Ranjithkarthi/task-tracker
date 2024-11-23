@@ -43,7 +43,7 @@
     }
   }
 
-  @media (orientation: portrait) or (max-width:768px){
+  @media (max-width:768px){
     .task-list button {
       margin: 5px 0px;
       width: 90px;
