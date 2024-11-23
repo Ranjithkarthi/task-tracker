@@ -4,17 +4,17 @@
     min-width: 300px;
   }
 
-  .task-list table th{
+.task-list table th{
     color: rgb(218, 91, 91);
-  }
+}
   
-  .task-list table th,
-  .task-list table td {
+.task-list table th,
+.task-list table td {
     border: 0.5px solid #e39f9f;
     padding: 8px;
-  }
+}
   
-  .task-list button {
+.task-list button {
     margin-right: 5px;
     padding: 8px 16px;
     cursor: pointer;
@@ -22,5 +22,31 @@
     border: none;
     background-color: rgb(41, 109, 211);
     color: aliceblue;
+}
+
+
+@media (orientation: landscape) and (max-width: 768px) {
+    .task-list table {
+      width: 300px;
+    }
+  }
+
+  @media (orientation: landscape) and (min-width: 768px) {
+    .task-list table {
+      width: 600px;
+    }
+  }
+
+  @media (orientation: landscape) and (min-width: 1440px) {
+    .task-list table {
+      width: 700px;
+    }
+  }
+
+  @media (orientation: portrait) or (max-width:768px){
+    .task-list button {
+      margin: 5px 0px;
+      width: 90px;
+    }
   }
   
