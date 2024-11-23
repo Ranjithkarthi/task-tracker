@@ -19,7 +19,7 @@ body {
   gap: 16px;
 }
 
-@media (orientation: landscape) and (max-width: 768px) {
+@media (max-width: 768px) {
   .task-form-and-list-container{
     display: flex;
     flex-direction: column;
