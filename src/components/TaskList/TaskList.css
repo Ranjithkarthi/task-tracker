@@ -1,0 +1,26 @@
+.task-list table {
+    border-collapse: collapse;
+    width: 700px;
+    min-width: 300px;
+  }
+
+  .task-list table th{
+    color: rgb(218, 91, 91);
+  }
+  
+  .task-list table th,
+  .task-list table td {
+    border: 0.5px solid #e39f9f;
+    padding: 8px;
+  }
+  
+  .task-list button {
+    margin-right: 5px;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 16px;
+    border: none;
+    background-color: rgb(41, 109, 211);
+    color: aliceblue;
+  }
+  
